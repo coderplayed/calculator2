@@ -9,7 +9,7 @@ def cal():
                     "press 4 for Modulus operation \n"
                     "press 5 for Division operation \n"
                     "press 6 for Floor Division operation \n"
-                    "press 7 for Division operation \n\n"))
+                    "press 7 for Exponent operation \n\n"))
 
  def add():
   a = x + y #Addition
@@ -46,13 +46,16 @@ def cal():
   sub()
 
  elif h == 3:
-  mod()
+  mult()
 
  elif h == 4:
-  div()
+  mod()
 
  elif h == 5:
-  flrdiv()
+  div()
+
+ elif h == 6:
+  flrdic()
 
  elif h == 7:
   exp()
