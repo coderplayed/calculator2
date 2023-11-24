@@ -55,7 +55,7 @@ def cal():
   div()
 
  elif h == 6:
-  flrdic()
+  flrdiv()
 
  elif h == 7:
   exp()
